@@ -27,6 +27,7 @@
     }
     #aside_text1 { visibility: hidden;}
     #aside_text2 { visibility: hidden;}
+    #aside_text3 { visibility: hidden;}
     #underline { visibility: hidden;}
     #underline2 { visibility: hidden;}
 }
@@ -288,14 +289,15 @@
 #aside_text3 {
     writing-mode: vertical-lr;
     text-orientation: mixed;
-    margin-left: 0%;
+    margin-left: 80%;
+    margin-top: 40%;
     font-family: League Spartan;
     font-size: 9px;
     color: #0b0c11;
 }
 #num2 {
-    margin-left: 0%;
-    margin-top: 0%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 #img5 {
     max-width: 100%;
@@ -306,24 +308,92 @@
     background-size: cover;
 }
 #text9 {
-    margin-top: -15%;
-    margin-left: 0%;
+    margin-top: -30%;
+    margin-left: 10%;
 }
 #text10 {
     font-family: Poppins;
     font-size: 14px;
-    margin-left: 0%;
+    margin-left: 10%;
     color: #616161;
 }
 #text11 {
     font-family: "League Spartan";
     font-size: 9px;
-    margin-left: 0%;
+    margin-left: 10%;
     margin-top: 10%;
 }
 #underline4 {
     margin-left: 0%;
     margin-top: -10%;
 }
+#bg {
+    background-image: url("images/bg1.png");
+    background-size: cover;
+    max-width: 100%;
+    height: 600px;
+    margin-top: 0%;
+}
+#text12 {
+    text-align: center;
+    margin-top: 15%;
+}
+#text13 {
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: center;
+    color: #616161;
+}
+#email {
+    width: 40%;
+    margin-left: 30%;
+    padding: 14px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    font-family: "League Spartan";
+    font-size: 11px;
 
+}
+#submit {
+    padding-top: 25px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    margin-left: -1%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #5da8ef;
+    background-image: url("images/bth.png");
+    position: relative;
+    border-left: none;
+}
+#img6 {
+    background-image: url("images/im6.png");
+    max-width: 100%;
+    height: 400px;
+    background-size: cover;
+
+}
+#text14 {
+    margin-top: 0%;
+    margin-left: 10%;
+    font-family: "League Spartan";
+    font-size: 9px;
+}
+#text15 {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#text16 {
+    margin-top: 20%;
+    margin-left: 10%;
+    font-family: "League Spartan";
+    font-size: 9px;
+    color: #9dc9f5;
+}
+#underline5 {
+    margin-top: -5%;
+    margin-left: 0%;
+}
 
